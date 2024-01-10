@@ -18,19 +18,28 @@
         height: 100vh; /* Adjust the height as needed */
         width: 100%; /* Make it cover the entire width */
         border: 2px solid black;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
         }
         body{
     margin: 0;
-    padding: 0;
+    padding-bottom: 150px;
+    border: 2px solid green;
+
+    
     /* color: aliceblue; */
 }
 .navbar{
     display: flex;
+    width: 100%;
     
 
     
     background-color: black;
     position: sticky;
+    color: white;
 }
 li{
     list-style: none;
@@ -53,6 +62,15 @@ img{
 
     
 }
+.mysubheadings{
+    /* margin-bottom: 10px; */
+    /* border: 2px solid red; */
+    margin-bottom: 50px;
+    color: white;
+    text-align: center;
+    padding: 8px;
+
+}
 
     </style>
     
@@ -61,16 +79,27 @@ img{
 <body>
     <div class="main">
         <div class="navbar">
-            <a href="#">Home</a><a href="#">Band</a><a href="#">Tour</a><a href="#">Contact</a><a href="#">More <select name="band" id="bands">
+            <a href="#">Home</a>
+            <a href="#">Band</a>
+            <a href="#">Tour</a>
+            <a href="#">Contact</a>
+            <div>More
+                 <select name="band" id="bands">
                 <option value=""></option>
                 <option value="Merchandise" >Merchandise</option>
                 <option value="Extra" >Extra</option>
                 <option value="More" >More</option>
-            </select></a>
+            </select>
+            </div>
         <span><i class="fa fa-search"></i></span>
     </nav>
-    
-   
-    
+        </div>
+
+    <div class="mysubheadings">
+        <h2 style="text-align: center;">New York City</h2>
+        <p>The band of new york is top most.</p>
+        </div>
+
+    </div>
 </body>
 </html>

@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Catering</title>
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+      }
+      .nav {
+        /* border: 2px solid black; */
+        margin: 0px;
+        display: flex;
+        justify-content: start;
+        gap: 20px;
+       
+      }
+      p,
+      span {
+        /* border: 2px solid red; */
+        padding: 2px 10px;
+        margin: 2px;
+        flex-direction: row;
+        font-weight: bold;
+        background-color: black;
+        color: white;
+      }
+      /* p:hover{
+            border: 2px solid gold;
+            padding: 5px;
+        } */
+
+      span {
+        margin-left: auto;
+      }
+      .portfolio {
+        display: flex;
+        border: 2px solid red;
+        justify-content: center;
+        gap: 20px;
+        background-image: url(https://www.carlelo.com/source/History-of-Mercedes-Benz-Cars-in-India-News-1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .photo {
+        border: 2px solid green;
+        height: fit-content;
+        width: 300px;
+        margin: 10px;
+      }
+      /* .Description{
+            border: 2px solid green;
+            height: 500px;
+            width: 200px;
+
+
+
+            
+        } */
+
+      #mercedes {
+        /* width: fit-content; */
+      }
+      .lists {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        justify-content: center;
+        gap: 10px;
+        border: 2px solid saddlebrown;
+      }
+      #list {
+        background-color: black;
+        text-align: center;
+        color: white;
+        padding: 5px;
+      }
+      .car {
+        width: 50vh;
+        height: 200px;
+        background-color: cadetblue;
+        margin: 2px;
+      }
+      .brand {
+        width: 100%;
+        height: 100%;
+      }
+      .twopart{
+        border: 2px solid darkolivegreen;
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: center;
+        row-gap: 50px;
+        width: 100%;
+        
+      }
+     
+     
+    </style>
+  </head>
+  <body>
+    <div class="nav">
+      <p>India</p>
+      <p>China</p>
+      <p>Australia</p>
+      <p>pakistan</p>
+      <span>America</span>
+    </div>
+    <div class="portfolio">
+      <div class="photo">
+        <h3 style="text-align: center">Mercedes</h3>
+        <img
+          id="mercedes"
+          src="https://m.economictimes.com/thumb/msid-98994101,width-1600,height-900,resizemode-4,imgsize-37224/mercedes-is-launching-its-hybrid-amg-model-in-india-on-april-11-details-inside.jpg"
+          alt="mercedes"
+          width="300px"
+          height="150px"
+        />
+        <p>
+          Ultimately, the choice between BMW and Mercedes-Benz comes down to
+          personal preferences and lifestyle. If you're looking for a sporty and
+          aggressive driving experience, BMW is the brand for you. If you're
+          looking for a comfortable and luxurious ride, Mercedes-Benz is the
+          better option.
+        </p>
+      </div>
+      <div class="photo">
+        <h3 style="text-align: center">Description</h3>
+        <p>
+          Mercedes-Benz (German pronunciation: [mɛʁˌtseːdəs ˈbɛnts, -dɛs -]
+          ⓘ),[6][7] commonly referred to as Mercedes and sometimes as Benz, is a
+          German luxury and commercial vehicle automotive brand established in
+          1926. Mercedes-Benz AG (a Mercedes-Benz Group subsidiary established
+          in 2019) is headquartered in Stuttgart, Baden-Württemberg, Germany.[1]
+          Mercedes-Benz AG produces consumer luxury vehicles and light
+          commercial vehicles badged as Mercedes-Benz. From November 2019
+          onwards, Mercedes-Benz-badged heavy commercial vehicles (trucks and
+          buses) are managed by Daimler Truck, a former part of the
+          Mercedes-Benz Group turned into an independent company in late 2021.
+          In 2018, Mercedes-Benz was the largest brand of premium vehicles in
+          the world, having sold 2.31 million passenger cars.[8]
+        </p>
+      </div>
+    </div>
+    <h2 id="list">Lists of all cars.</h2>
+    <div class="lists">
+      <div class="car">
+        <img
+          src="https://www.topgear.com/sites/default/files/2023/11/1%20Mercedes%20AMG%20GT.jpg?w=976&h=549"
+          alt=""
+          class="brand"
+        />
+      </div>
+      <div class="car">
+        <img
+        src=https://cdni.autocarindia.com/Utils/ImageResizer.ashx?n=https://cdni.autocarindia.com/ExtraImages/20210630112726_S_class_tracking.jpg&w=726&h=482&q=75&c=1
+        alt="" class="brand">
+      </div>
+      <div class="car">
+        <img
+        src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRV0yWbZqSnFamqwYGNlNnJWtSOnoFKFdn0tw&usqp=CAU
+        alt="" class="brand">
+      </div>
+      <div class="car">
+        <img
+        src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvMPkIXqGkZW4hFKaXa6lc_HkbMjXw4dINgQ&usqp=CAU
+        alt="" class="brand">
+      </div>
+      <div>
+        <span>Mercedes-Benz AG </span>
+        <p>
+          The Mercedes-Benz Group AG is a German multinational automotive
+          corporation headquartered in Stuttgart, Baden-Württemberg, Germany. It
+          is one of the world's leading car manufacturers. Daimler-Benz was
+          formed with the merger of Benz & Cie., the world's oldest car company,
+          and Daimler Motoren Gesellschaft in 1926.
+        </p>
+      </div>
+      <div>
+        <span>Mercedes-Benz S Class </span>
+        <p>
+          The Mercedes-Benz Group AG is a German multinational automotive
+          corporation headquartered in Stuttgart, Baden-Württemberg, Germany. It
+          is one of the world's leading car manufacturers. Daimler-Benz was
+          formed with the merger of Benz & Cie., the world's oldest car company,
+          and Daimler Motoren Gesellschaft in 1926.
+        </p>
+      </div>
+      <div>
+        <span>Mercedes KLASSEN </span>
+        <p>
+          The Mercedes-Benz Group AG is a German multinational automotive
+          corporation headquartered in Stuttgart, Baden-Württemberg, Germany. It
+          is one of the world's leading car manufacturers. Daimler-Benz was
+          formed with the merger of Benz & Cie., the world's oldest car company,
+          and Daimler Motoren Gesellschaft in 1926.
+        </p>
+      </div>
+      <div>
+        <span>Mercedes-Benz Maybach </span>
+        <p>
+          The Mercedes-Benz Group AG is a German multinational automotive
+          corporation headquartered in Stuttgart, Baden-Württemberg, Germany. It
+          is one of the world's leading car manufacturers. Daimler-Benz was
+          formed with the merger of Benz & Cie., the world's oldest car company,
+          and Daimler Motoren Gesellschaft in 1926.
+        </p>
+      </div>
+    </div>
+   <div class="twopart">
+     <div >
+      <h2>OVERVIEW</h2>
+      <h3>WHAT IS IT?</h3>
+      <p>
+        The second generation of the AMG GT supercar. And no longer a
+        supercar. That arrived back in 2014 as an aggressive, long bonneted,
+        two-seater. Now it’s a four seat (OK, optionally) Super GT, a rival to
+        the Aston Martin DB12 and Ferrari Roma as much as the Porsche 911
+        Turbo. Very little is carried over from the first gen. The chassis
+        architecture is all-new and shared with the SL, but Mercedes is at
+        pains to point out this is not an SL with a fixed roof – the two cars
+        were developed independently. That’s clear when you start driving it.
+        The GT is far more fluent and capable – not only than the SL, but also
+        its aggressive and edgy predecessor.
+      </p>
+    </div>
+    <div>
+      <h2>HAS IT FOLLOWED THE C63 DOWN THE HYBRID PATH?</h2>
+      <p>
+        Nope, this uses the familiar 4.0-litre twin turbo V8 in two states of
+        tune: a GT 55 with 469bhp and a GT 63 with 577bhp courtesy of higher
+        turbo boost pressure, better airflow and modified engine software.
+        Initially UK buyers will only be offered the more powerful version,
+        costing around £160,000 – around £10,000 cheaper than the equivalent
+        SL. The 55 will probably only follow if there’s demand for a more
+        affordable entry-level model. However, further down the line, expect
+        to see a GT 63 e-Performance that uses the same plug-in hybrid tech as
+        the 831bhp GT 63 4dr. But that’s only been teased as a concept so far.
+      </p>
+    </div>
+   </div>
+  </body>
+</html>
