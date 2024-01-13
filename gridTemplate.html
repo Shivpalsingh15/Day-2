@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Template</title>
+    <style>
+      body {
+        border: 2px solid grey;
+      }
+      .child {
+        height: 200px;
+        width: 100px;
+        background-color: brown;
+        border: 3px solid chartreuse;
+        box-sizing: border-box;
+      }
+      .main {
+        display: flex;
+        /* grid-template-columns: auto; */
+        /* grid-template-rows: ; */
+        flex-wrap: wrap;
+        flex-direction: row;
+        /* align-items: end; */
+        justify-content: center;
+        /* align-content: center; */
+        height: 700px;
+      }
+      #one {
+        align-self: baseline;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div id="one" class="child">10</div>
+      <div id="two" class="child">20</div>
+      <div id="three" class="child">30</div>
+      <div id="four" class="child">40</div>
+      <div id="" class="child">50</div>
+      <div id="" class="child">60</div>
+      <div id="" class="child">70</div>
+      <!-- <div id="" class="child">80</div>
+      <div id="" class="child">90</div>
+      <div id="" class="child">100</div>
+      <div id="" class="child">110</div>
+      <div id="" class="child">120</div> -->
+    </div>
+  </body>
+</html>
