@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .header {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        background-color: orange;
+        position: fixed;
+        top: 0;
+        width: 100%;
+      }
+      .header a {
+        color: black;
+        text-decoration: none;
+      }
+      .navbar a {
+        margin-right: 10px;
+      }
+      .navbar a:hover,
+      .header a:hover {
+        /* margin-right: 10px; */
+        background-color: red;
+      }
+      .main {
+        display: flex;
+        justify-content: space-evenly;
+        height: 700px;
+        width: 100%;
+        /* background-color: blue; */
+        background-image: url(/codingwallpaper.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* opacity: 0.8; */
+      }
+      .data {
+        width: 400px;
+        color: rgb(255, 0, 0);
+      }
+      #data1{
+        position: relative;
+        top:  50%;
+        /* border: 2px solid hotpink; */
+        padding: 10px;
+        width: 500px;
+        font-size: larger;
+      }
+      #data2{
+        background-image: url(/IMG_20220521_163445.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        /* filter: blur(1); */
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#">Shiv.</a>
+      <div class="navbar">
+        <a href="#">Home</a><a href="#">About</a><a href="#">Services</a
+        ><a href="#">portfolio</a><a href="#">Contact</a>
+      </div>
+    </header>
+    <div class="main">
+      <div class="data" id="data1" >
+        <h2>I am Shivpal Singh.</h2>
+        <p>
+          As a passionate and aspiring frontend developer, I am a fresh talent
+          eager to contribute my foundational skills in frontend development.
+          Proficient in basics frontend technologies, I am dedicated to
+          continuous learning and growth in creating engaging user experiences.
+        </p>
+      </div>
+      
+      <div class="data" id="data2">
+      <!-- <img src="/IMG_20220521_163445.jpg" alt="shiv" /> -->
+
+      </div>
+    </div>
+  </body>
+</html>
